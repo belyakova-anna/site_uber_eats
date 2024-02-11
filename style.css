@@ -1,0 +1,310 @@
+header {
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding-top: 80px;
+}
+
+.header-info {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-click {
+  display: flex;
+  align-items: stretch;
+  margin: 8px;
+}
+
+img {
+  margin: 8px;
+}
+
+.header-click > button {
+  margin: 8px;
+  padding: 14px 20px 14px 20px;
+  background-color: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 2px;
+}
+
+form {
+  margin: 32px 0 48px 0;
+}
+
+input {
+  width: 100%;
+  border-width: 0 0 1px 0;
+  border-color: #979797;
+}
+
+::placeholder {
+  color: #979797;
+  font-size: 16px;
+}
+
+input{
+    padding-top: 24px;
+}
+
+@media screen and (min-width: 900px) {
+  .header-info,
+  .footer-info,
+  .footer-table,
+  .horizontal-line,
+  .download,
+  .footer-links,
+  .meals,
+  .content {
+    margin-left: 87px;
+    margin-right: 87px;
+  }
+  .card-meal {
+    flex-basis: 45%;
+  }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+option {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* @media (max-width: 320px) {
+  .for-large-screens {
+    display: none;
+  }
+} */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+  justify-content: center;
+}
+
+.card {
+  text-align: left;
+  flex-basis: 33%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.rest-photo {
+  margin: 0;
+  width: 308px;
+  height: 256px;
+}
+
+.restaurant {
+  color: #1d1d1d;
+  font-size: 16px;
+}
+
+.price {
+  color: #626262;
+  font-size: 14px;
+}
+
+.time {
+  color: #1d1d1d;
+  font-size: 13px;
+}
+
+footer {
+  background-color: black;
+}
+
+.horizontal-line {
+  background: #979797;
+  border: none;
+  height: 1px;
+}
+
+select {
+    background-color: #979797;
+    font-size: 13px;
+    color: white;
+    width: 227px;
+    height: 40px;
+    margin-bottom: 33px;
+}
+
+option {
+    font-size: 13px;
+    color: white;
+    padding: 12px;
+}
+
+.container {
+    display: flex;
+    margin-top: 32px;
+    flex-flow: column;
+}
+
+.footer-icon{
+    margin: 0;
+    padding-right: 12px;
+}
+
+.footer-table {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+.container > p {
+    color: white;
+    font-size: 13px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+}
+
+.download > img {
+    padding: 40px 20px 40px 20px;
+}
+
+.footer-links{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 40px 0 40px 0;
+}
+
+.footer-links > p {
+    color: white;
+    font-size: 11px;
+}
+
+.btn-up {
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rest-intro {
+    background-image: url(img/pushkin.png);
+    padding: 80px 0 80px 0;
+}
+
+.rest-card {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    background-color: white;
+    /* height: 204px; */
+    margin: 0 6px 0 6px;
+    width: fit-content;
+}
+
+.btn-time{
+  background-color: #262626;
+  border-radius: 16px;
+  padding: 8px 16px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 54px;
+  margin-bottom: 38px;
+}
+
+.eat-menu{
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.eat-menu > .content {
+  display: flex;
+  
+}
+
+.eat-menu > .content > p {
+  color: #979797;
+  font-size: 16px;
+  padding: 31px 40px 31px 0;
+  margin: 0;
+}
+
+.meals > h1 {
+  margin-top: 56px;
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.cards-meals{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 64px;
+  justify-content: center;
+}
+
+.card-meal{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  text-align: left;
+  box-sizing: border-box;
+  margin: 8px;
+  padding: 0;
+}
+
+.meal-name{
+  color: #1D1D1D;
+  font-size: 16px;
+}
+
+.meal-addic{
+  color: #626262;
+  font-size: 13px;
+}
+
+.meal-price{
+  color: #1D1D1D;
+  font-size: 15px;
+}
+
+.meal-photo{
+  max-height: 160px;
+  max-width: 170px;;
+  margin: 0;
+  align-content: flex-end;
+}
+
+.meal-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin: 16px;
+  min-width: 120px;
+}
